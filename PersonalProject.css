@@ -1,0 +1,54 @@
+body{
+    background-color: Burlywood;
+    font-size: 20px;
+    font-family: Tahoma;
+    color: White;
+    width: 100%;
+    height: 100vh;
+  }
+  h1,p{
+    text-align:center;
+      margin: 1em auto;
+  }
+  form{
+    margin: 0 auto;
+    padding-bottom: 7em auto;
+    max-width: 700px;
+    min-width: 500px;
+    width: 90vw;
+  }
+  fieldset{
+   border: none;
+  padding: 2rem 0;
+    border-bottom: 7px;
+  }
+  label{
+    display: block;
+    margin: 1;
+  }
+  input, textarea, select{
+    margin: 20px 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  input, textarea{
+    background-color: white;
+    border: 1px solid blue;
+    color: black;
+  }
+  input[type="submit"] {
+    display: block;
+    width: 70%;
+    margin: 2em auto;
+    height: 3em;
+    font-size: 16px;
+    background-color: silver;
+    border-color: white;
+    min-width: 200px;
+  }
+  h1{
+    color: green;
+  }
+  p{
+    color: purple;
+  }
